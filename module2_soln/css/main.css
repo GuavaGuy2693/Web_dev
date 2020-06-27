@@ -16,7 +16,14 @@ h1 {
     width: 100%;
 }
 
+p {
+    font-family: monospace;
+    padding: 16px 5px;
+}
+
 .in-title {
+    font-weight: bold;
+    font-family: sans-serif;
     position: absolute;
     right: 0px;
     background-color: #dfae6f;

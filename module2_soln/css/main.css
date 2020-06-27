@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 38px;
+    margin: 20px 20px;
+    background-color: #dadada;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+}
+
+p {
+    text-align: center;
+    background-color: #dadada;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+    height: 80px;
+    margin: 20px 20px;
+}
+
+.row {
+    width: 100%;
+}
+
+.element {
+    float: left;
+}
+
+.title{
+    position: absolute;
+    
+}
+
+@media (min-width: 992px) {
+    .element {
+        width: 33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .element {
+        width: 50%;
+    }
+    
+    #loner {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .element {
+        width: 100%
+    }
+}

@@ -12,26 +12,17 @@ h1 {
     border-radius: 6px;
 }
 
-p {
-    text-align: center;
+.row {
+    width: 100%;
+}
+
+.element{
+    float: left;
     background-color: #dadada;
     border: 1px solid #dadada;
     border-radius: 6px;
     height: 80px;
     margin: 20px 20px;
-}
-
-.row {
-    width: 100%;
-}
-
-.element {
-    float: left;
-}
-
-.title{
-    position: absolute;
-    
 }
 
 @media (min-width: 992px) {
@@ -42,7 +33,7 @@ p {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .element {
-        width: 50%;
+        width: calc(50% - 40px);
     }
     
     #loner {

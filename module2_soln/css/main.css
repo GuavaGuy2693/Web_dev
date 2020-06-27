@@ -16,6 +16,11 @@ h1 {
     width: 100%;
 }
 
+.in-title {
+    position: absolute;
+    right: 0px;
+}
+
 .element{
     float: left;
     background-color: #dadada;

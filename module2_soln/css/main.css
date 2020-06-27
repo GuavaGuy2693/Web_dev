@@ -27,7 +27,7 @@ h1 {
 
 @media (min-width: 992px) {
     .element {
-        width: 33%;
+        width: calc(33% - 40px);
     }
 }
 

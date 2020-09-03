@@ -1,2 +1,3 @@
 # Web_dev
-Coursera test repository
+was Coursera test repository
+now site of experimentation
